@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Re/Solución · Reforestación Comunitaria</title>
+  <style>
+    :root{
+      --green:#1b5e20;
+      --green-light:#4caf50;
+      --blue:#1976d2;
+      --bg:#f1f8f4;
+      --card:#ffffff;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Arial, Helvetica, sans-serif;background:linear-gradient(180deg,var(--bg),#e8f5e9);color:#1f2937}
+    header{background:linear-gradient(135deg,var(--green),var(--green-light));color:#fff;padding:40px 20px}
+    header h1{margin:0;font-size:2.2rem}
+    header p{max-width:900px;line-height:1.6}
+    nav{display:flex;gap:12px;margin-top:16px;flex-wrap:wrap}
+    nav a{color:#fff;text-decoration:none;padding:8px 14px;border-radius:999px;background:rgba(255,255,255,.18)}
+    nav a:hover{background:rgba(255,255,255,.28)}
+    main{padding:28px 20px;max-width:1100px;margin:auto}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+    .card{background:var(--card);border-radius:16px;box-shadow:0 8px 18px rgba(0,0,0,.08);padding:18px}
+    .card h3{color:var(--green);margin-top:0}
+    .badge{display:inline-block;background:#e3f2fd;color:var(--blue);padding:6px 10px;border-radius:999px;font-size:.85rem}
+    section{margin-bottom:28px}
+    .timeline{border-left:4px solid var(--green-light);padding-left:16px}
+    .timeline .step{margin-bottom:16px}
+    .cta{background:linear-gradient(135deg,#e8f5e9,#e3f2fd);border-radius:20px;padding:22px;display:grid;gap:12px}
+    .cta a{align-self:start;display:inline-block;background:var(--green);color:#fff;text-decoration:none;padding:10px 16px;border-radius:10px}
+    footer{background:#0f172a;color:#e5e7eb;padding:16px;text-align:center}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Re/Solución · Reforestación Comunitaria</h1>
+    <p>
+      La reforestación es una de las acciones clave del Proyecto PAEC Re/Solución en el CBTis 134. 
+      Busca recuperar áreas verdes, fortalecer la biodiversidad local y generar conciencia ambiental
+      mediante la participación activa de estudiantes, docentes y comunidad.
+    </p>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="#por-que">¿Por qué reforestar?</a>
+      <a href="#como">¿Cómo lo hacemos?</a>
+      <a href="#impacto">Impacto</a>
+      <a href="#participa">Participa</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="por-que">
+      <h2>¿Por qué impulsar la reforestación?</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Problema ambiental local</h3>
+          <p>
+            En Chilpancingo se han identificado problemas como la deforestación, la pérdida de áreas verdes
+            y la degradación del suelo. Estas condiciones afectan la calidad del aire, la temperatura urbana
+            y el bienestar de la comunidad.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Beneficios ambientales</h3>
+          <ul>
+            <li>Captura de CO₂ y mitigación del cambio climático.</li>
+            <li>Mejora de la calidad del aire y regulación de la temperatura.</li>
+            <li>Protección del suelo y recarga de mantos acuíferos.</li>
+            <li>Hábitat para flora y fauna local.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Formación ciudadana</h3>
+          <p>
+            Reforestar no solo es plantar árboles: es formar ciudadanos responsables.
+            El proyecto fortalece valores como el trabajo colaborativo, la responsabilidad social
+            y el compromiso con el entorno.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="como">
+      <h2>¿Cómo se implementa la reforestación?</h2>
+      <div class="timeline">
+        <div class="step">
+          <span class="badge">Fase 1</span>
+          <h3>Sensibilización</h3>
+          <p>
+            Talleres y charlas para informar sobre los Objetivos de Desarrollo Sostenible (ODS),
+            la importancia de los árboles y el impacto de la deforestación.
+          </p>
+        </div>
+        <div class="step">
+          <span class="badge">Fase 2</span>
+          <h3>Ejecución</h3>
+          <p>
+            Identificación de áreas a reforestar, selección de especies nativas,
+            jornadas de plantación con participación estudiantil y comunitaria.
+          </p>
+        </div>
+        <div class="step">
+          <span class="badge">Fase 3</span>
+          <h3>Seguimiento</h3>
+          <p>
+            Monitoreo del crecimiento, riego, mantenimiento y evaluación del impacto
+            ambiental y social generado por las acciones.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="impacto">
+      <h2>Impacto esperado</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Ambiental</h3>
+          <p>
+            Incremento de áreas verdes, reducción del calor urbano y mejora de la biodiversidad local.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Educativo</h3>
+          <p>
+            Aprendizajes significativos sobre ecología, sostenibilidad y participación comunitaria.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Social</h3>
+          <p>
+            Integración de la comunidad escolar con vecinos y autoridades para un objetivo común.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="participa">
+      <div class="cta">
+        <h2>¿Cómo puedes participar?</h2>
+        <p>
+          Únete a las jornadas de reforestación, cuida los árboles plantados,
+          difunde información y propón nuevas áreas para recuperar espacios verdes.
+        </p>
+        <a href="sensibilizacion.html">Conoce prácticas sustentables</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Proyecto PAEC Re/Solución · CBTis 134 · Sostenibilidad Ambiental</p>
+  </footer>
+</body>
+</html>

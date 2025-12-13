@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Re/Solución · Prácticas Sustentables</title>
+  <style>
+    :root{
+      --green:#2e7d32;
+      --green-light:#66bb6a;
+      --blue:#1e88e5;
+      --bg:#eef7f1;
+      --card:#ffffff;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Verdana, Geneva, Tahoma, sans-serif;background:linear-gradient(180deg,var(--bg),#e8f5e9);color:#1f2937}
+    header{background:linear-gradient(135deg,var(--green),var(--green-light));color:#fff;padding:40px 20px}
+    header h1{margin:0;font-size:2.2rem}
+    header p{max-width:900px;line-height:1.6}
+    nav{display:flex;gap:12px;margin-top:16px;flex-wrap:wrap}
+    nav a{color:#fff;text-decoration:none;padding:8px 14px;border-radius:999px;background:rgba(255,255,255,.18)}
+    nav a:hover{background:rgba(255,255,255,.28)}
+    main{padding:28px 20px;max-width:1100px;margin:auto}
+    section{margin-bottom:28px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+    .card{background:var(--card);border-radius:16px;box-shadow:0 8px 18px rgba(0,0,0,.08);padding:18px}
+    .card h3{color:var(--green);margin-top:0}
+    .icon{font-size:2rem}
+    .highlight{background:#e3f2fd;border-left:6px solid var(--blue);padding:16px;border-radius:12px}
+    .steps li{margin-bottom:10px}
+    footer{background:#0f172a;color:#e5e7eb;padding:16px;text-align:center}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Re/Solución · Sensibilización y Prácticas Sustentables</h1>
+    <p>
+      La sensibilización ambiental es el eje que permite transformar hábitos cotidianos.
+      En el Proyecto PAEC Re/Solución del CBTis 134, se promueven prácticas sustentables
+      que reducen residuos, cuidan los recursos naturales y fortalecen la responsabilidad social.
+    </p>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="#habitos">Hábitos Sustentables</a>
+      <a href="#escuela">En la Escuela</a>
+      <a href="#comunidad">En la Comunidad</a>
+      <a href="reforestacion.html">Reforestación</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="habitos">
+      <h2>Hábitos sustentables en la vida diaria</h2>
+      <div class="grid">
+        <div class="card">
+          <div class="icon">♻️</div>
+          <h3>Reducción de residuos</h3>
+          <p>
+            Evitar productos de un solo uso, separar correctamente los residuos y reutilizar
+            materiales contribuye a disminuir la cantidad de basura que llega a los vertederos.
+          </p>
+        </div>
+        <div class="card">
+          <div class="icon">💧</div>
+          <h3>Uso responsable del agua</h3>
+          <p>
+            Cerrar llaves, reutilizar agua cuando sea posible y reportar fugas
+            ayuda a conservar un recurso vital para la comunidad.
+          </p>
+        </div>
+        <div class="card">
+          <div class="icon">⚡</div>
+          <h3>Ahorro de energía</h3>
+          <p>
+            Apagar luces, desconectar aparatos y aprovechar la luz natural
+            reduce el consumo energético y la huella de carbono.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="escuela">
+      <h2>Prácticas sustentables en el CBTis 134</h2>
+      <div class="highlight">
+        <p>
+          En la escuela, la sensibilización se refuerza mediante campañas, talleres y acciones concretas
+          como la eliminación del unicel, la reducción de bolsas plásticas y la implementación de programas
+          de reciclaje y composta.
+        </p>
+      </div>
+      <ul class="steps">
+        <li>Separación de residuos (PET, papel, aluminio y orgánicos).</li>
+        <li>Uso de contenedores identificados en aulas y áreas comunes.</li>
+        <li>Charlas sobre los Objetivos de Desarrollo Sostenible (ODS).</li>
+        <li>Participación en el huerto escolar con composta.</li>
+      </ul>
+    </section>
+
+    <section id="comunidad">
+      <h2>Sensibilización en la comunidad</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Acciones colectivas</h3>
+          <p>
+            La participación comunitaria permite extender el impacto del proyecto más allá de la escuela,
+            involucrando a familias, vecinos y organizaciones locales.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Educación ambiental</h3>
+          <p>
+            A través de carteles, redes sociales y eventos, se promueve una cultura ambiental
+            basada en la información y la acción responsable.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Cambio de actitud</h3>
+          <p>
+            Sensibilizar significa reflexionar sobre nuestras acciones diarias y asumir
+            un compromiso permanente con el cuidado del planeta.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Proyecto PAEC Re/Solución · Educación Ambiental y Sostenibilidad</p>
+  </footer>
+</body>
+</html>

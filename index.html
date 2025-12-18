@@ -3,9 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <title>PAEC Re/Solución</title>
+
     <style>
-      
+        
+        body {
+            margin: 0;
+            min-height: 100vh;
+            font-family: "Segoe UI", Arial, sans-serif;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            background: linear-gradient(135deg, #1b5e20, #4caf50);
+            color: #ffffff;
+        }
+
+        body::before {
+            content: "";
+            position: fixed;
+            inset: 0;
+
+            background: url("image.png") center center / cover no-repeat;
+            opacity: 0.25;
+            z-index: 0;
+        }
+        
+
         .contenedor {
+            position: relative;   /* AGREGADO */
+            z-index: 1;           /* AGREGADO */
+
             background: rgba(255, 255, 255, 0.12);
             padding: 50px 40px;
             border-radius: 25px;
@@ -37,7 +65,7 @@
             font-size: 1.1rem;
             padding: 16px 20px;
             border-radius: 15px;
-            background: #ffe0b2; 
+            background: #ffe0b2;
             color: #1b5e20;
             font-weight: bold;
             transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
@@ -54,26 +82,15 @@
             margin-top: 35px;
             font-size: 0.95rem;
             color: #e0f2f1;
-        } 
-        body::before {
-    content: "";
-    position: fixed;
-    inset: 0;
-
-    background: url("image.png") center center / cover no-repeat;
-
-    opacity: 0.25; 
-    z-index: 0;
-}
-
-
+        }
     </style>
 </head>
+
 <body>
 
     <div class="contenedor">
         <h1>Proyecto Re/Solución</h1>
-         
+
         <p>
             Página principal del PAEC del CBTis 134  
             enfocada en sostenibilidad ambiental y cuidado del entorno.
